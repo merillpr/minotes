@@ -1,4 +1,4 @@
-package com.merillpr.minotes
+package com.merillpr.minotes.add
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
@@ -29,7 +29,9 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.toSize
+import com.merillpr.minotes.R
 import com.merillpr.minotes.custom.SetupTopAppBar
+import com.merillpr.minotes.robotoFont
 import com.merillpr.minotes.ui.theme.GreyLine
 import com.merillpr.minotes.ui.theme.MostYellow
 import com.merillpr.minotes.ui.theme.White

@@ -1,4 +1,4 @@
-package com.merillpr.minotes
+package com.merillpr.minotes.list
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,10 +7,10 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.merillpr.minotes.R
+import com.merillpr.minotes.add.AddActivity
 import com.merillpr.minotes.custom.*
-import com.merillpr.minotes.ui.theme.MinotesTheme
 
 class ListActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

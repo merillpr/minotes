@@ -1,10 +1,9 @@
-package com.merillpr.minotes
+package com.merillpr.minotes.home
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -12,12 +11,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.merillpr.minotes.R
+import com.merillpr.minotes.add.AddActivity
 import com.merillpr.minotes.custom.LineHome
 import com.merillpr.minotes.custom.SetupFab
 import com.merillpr.minotes.custom.SetupTopAppBar
 import com.merillpr.minotes.custom.TextHome
+import com.merillpr.minotes.list.ListActivity
+import com.merillpr.minotes.robotoFont
 import com.merillpr.minotes.ui.theme.Black
-import com.merillpr.minotes.ui.theme.MostYellow
 
 
 class HomeActivity : ComponentActivity() {
